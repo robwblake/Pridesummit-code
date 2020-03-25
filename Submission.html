@@ -1,0 +1,274 @@
+<!-- ------------------------------------------------------------------------------------- -->
+<!-- File Information -->
+<!-- File Name: Submission.html -->
+<!-- Purpose: Contains ability to submit people to be considered for the webpage -->
+<!-- ------------------------------------------------------------------------------------- -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Submission page
+        </title>
+<!-- ------------------------------------------------------------------------------------- -->
+        <!-- CSS Stylesheet -->
+        <link href="http://www.pridesummit.com/Styles.css" rel="stylesheet"><!-- My Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Navigation bar dropdown Stylesheet -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    
+<!-- ------------------------------------------------------------------------------------- -->
+        <!-- Navigation bar -->
+        <!-- Image above Nav bar-->
+        <img src="assets/logo.jpg" alt="Link to Advocate.com" align="middle" style="height:100%;width:100%;">
+            
+        <!-- Actual Navigation Bar -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="People.html">People</a></li>
+            <li><a class="active" href="Submission.html">Submission</a></li>
+        </ul>
+    
+<!-- ------------------------------------------------------------------------------------- -->
+        <!-- Pop up form for email newsletter -->
+        <button class="open-button" onclick="openForm()">
+            Click to sign up for Weekly Newsletter
+        </button>
+        
+        <div class="form-popup" id="myForm">
+            <form action="404.html" class="form-container">
+                <h1>
+                    Sign Up
+                </h1>
+                
+                <label for="email">
+                    <b>Email</b>
+                </label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                    
+                    
+                <button type="submit" class="btn">Confirm</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        
+        <script>
+            function openForm() {
+                document.getElementById("myForm").style.display = "block";
+            }
+        
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+        </script>
+    </head>
+    
+<!-- ------------------------------------------------------------------------------------- -->
+    <!-- Body of Page -->
+    <body>
+<!-- ------------------------------------------------------------------------------------- -->
+        <!-- First Big Box with submit -->
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>
+                        Submit a profile
+                    </h2>
+                    <p>
+                        Have someone in mind who should be on this site? Then please help me out and submit their details for further review.
+                    </p>
+                    
+                    <div class="container">
+                        <form action="404.html">
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="fname">First Name</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                                        </div>
+                            </div>
+                            
+   
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="lname">Last Name</label>
+                                </div>
+                                <div class="col-75">
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="Sport">Sport</label>
+                                </div>
+                                <div class="col-75">
+                                    <select id="country" name="country">
+                                        <option value="Mountaineering">Mountaineering</option>
+                                        <option value="Rugby">Rugby</option>
+                                        <option value="Other">Soccor</option>
+                                        <option value="Snowboarding">Snowboarding</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-25">
+                                    <label for="More information">Tell me about them:</label>
+                                </div>
+                                <div class="col-75">
+                                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                            <input type="checkbox" name="vehicle2" value="Car"> Meets <a href="About.html" target="_blank">criteria</a><br>
+                            </div>
+                            
+                            <div class="row">
+                                <input type="submit" value="Submit">
+                                    </div>
+                        </form>
+                    </div> <!-- End of Container -->
+                </div><!-- End of Card -->
+                
+<!-- ------------------------------------------------------------------------------------- -->
+                <!-- Second Big Box -->
+                <div class="card">
+                    <p>
+                    Hope you've enjoyed the site, if you've any reccomendations reach out on our social media.
+                    <p>
+                </div><!-- End of Card -->
+            </div><!-- End of left column -->
+
+<!-- ------------------------------------------------------------------------------------- -->
+    <!-- LGBT Websites Section -->
+
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>
+                    LGBT websites
+                </h2>
+                
+                <!-- Advocate.com -->
+                <a href="https://www.advocate.com" target="_blank">
+                    <div class="zoom"> <img src="assets/Advocate.png" alt="Link to Advocate.com" align="middle" style="height:100%;width:100%;">
+                        </div>
+                </a>
+                
+                <!-- LGBTQ Nation -->
+                <a href="https://www.lgbtqnation.com" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/LGBT Nation.png" alt="Link to LGBT Nation" align="middle" style="height:100%;width:100%;">
+                            </div>
+                </a>
+                
+                <!-- Out Sports -->
+                <a href="https://www.outsports.com" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/Out Sports.png" alt="Link to Out Sports" align="middle" style="height: 100%;width:100%;">
+                            </div>
+                </a>
+                
+                <!-- PINK NEWS -->
+                <a href="https://www.pinknews.co.uk/home/" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/Pink News.png" alt="Link to Pink News" align="middle" style="height:100%;width:100%;">
+                            </div>
+                </a>
+                
+                <!-- gaily grind-->
+                <a href="https://thegailygrind.com" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/Gaily Grind.png" alt="Link to Gaily Grind" align="middle" style="height:100%;width:100%;">
+                            </div>
+                </a>
+            </div><!-- End of Card -->
+            
+    <!-- ------------------------------------------------------------------------------------- -->
+            <!-- Support Groups Section -->
+            
+            <div class="card">
+                <h2>Support Groups</h2>
+                <!-- Spunout.ie -->
+                <a href="https://spunout.ie/life/category/lgbt" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/Spunout.png" alt="Link to Spunout" align="middle" style="height:100%;width:100%;">
+                            </div>
+                </a>
+                
+                <!-- Belonto -->
+                <a href="http://www.belongto.org" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/belongto.png" alt="Link to belongto" align="middle" style="height:100%;width:100%;">
+                            </div>
+                    
+                </a>
+                <!-- LGBT Ireland -->
+                <a href="https://lgbt.ie" target="_blank">
+                    <div class="zoom">
+                        <img src="assets/lgbt ireland.png" alt="Link to lgbt ireland" align="middle" style="height:100%;width:100%;">
+                            </div>
+                </a>
+            </div><!-- End of Card -->
+        </div><!-- End of Right Column -->
+    </div><!-- End of Row -->
+        
+<!-- ------------------------------------------------------------------------------------- -->
+    <!-- Footer Section -->
+    <div class="footer">
+        <h3>
+            Pride Summit Social Media:
+        </h3>
+        
+        <!-- Facebook Icon-->
+        <div class="popup" onclick="myFunction()">
+            <a class="fa fa-facebook">
+            </a>
+            <span class="popuptext" id="myPopup">
+                In Time
+            </span>
+        </div>
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+        </script>
+        
+        <!-- instagram Icon-->
+        <div class="popup" onclick="myFunction()">
+            <a class="fa fa-instagram">
+            </a>
+            <span class="popuptext" id="myPopup2">
+                In time!
+            </span>
+        </div>
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup2");
+                popup.classList.toggle("show");
+            }
+        </script>
+        
+        <!-- Twitter Icon-->
+        <div class="popup" onclick="myFunction()">
+            <a class="fa fa-twitter">
+            </a>
+            <span class="popuptext" id="myPopup3">
+                In Time!
+            </span>
+        </div>
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+                var popup = document.getElementById("myPopup3");
+                popup.classList.toggle("show");
+            }
+        </script>
+    </div> <!-- End of footer -->
+<!-- ------------------------------------------------------------------------------------- -->
+    </body>
+</html>
